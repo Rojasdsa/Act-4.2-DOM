@@ -15,6 +15,7 @@ p {
   padding: 0 0 .5em;
 }
 
+/* Estilo del container */
 .cont {
   background: #edf5e1;
   padding: 10px 20px 10px;
@@ -22,6 +23,7 @@ p {
   position: relative;
 }
 
+/* Estilo del botón que se crea en JS */
 .remove-button {
   position: absolute;
   font-size: 110%;
