@@ -3,9 +3,9 @@ Hay un botón en la variable. No hay handlers en él.
 ¿Qué handlers se ejecutan con el click después del siguiente 
 código? ¿Qué alertas se muestran?
 
-button.addEventListener(&quot;click&quot;, () =&gt; alert(&quot;1&quot;));
-button.removeEventListener(&quot;click&quot;, () =&gt; alert(&quot;1&quot;));
-button.onclick = () =&gt; alert(2);
+button.addEventListener("click", ()  alert("1"));
+button.removeEventListener("click", ()  alert("1"));
+button.onclick = () alert(2);
  -->
 
 <!DOCTYPE html>
@@ -13,10 +13,12 @@ button.onclick = () =&gt; alert(2);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>006 - Handlers</title>
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+
+    <button id="button">click</button>
+
 </body>
 </html>
