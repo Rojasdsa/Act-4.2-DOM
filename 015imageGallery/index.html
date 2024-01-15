@@ -6,13 +6,43 @@ por ejemplo.
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>015 - Image gallery</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <p><img id="largeImg" src="https://allesparty.at/wp-content/uploads/pokemon-header.webp" alt="Imagen grande"></p>
+
+    <ul id="thumbs">
+        <!-- el navegadort tiene un pequeño tooltip incorporado que "on hover" muestra el texto del atributo "title" -->
+        <li>
+            <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" title="Imagen 2"><img
+                   class="pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png"></a>
+        </li>
+        <li>
+            <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/531.png" title="Imagen 3"><img
+                class="pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/531.png"></a>
+        </li>
+        <li>
+            <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png" title="Imagen 4"><img
+                class="pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png"></a>
+        </li>
+        <li>
+            <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png" title="Imagen 5"><img
+                class="pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png"></a>
+        </li>
+        <li>
+            <a href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png" title="Imagen 6"><img
+                class="pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png"></a>
+        </li>
+    </ul>
+
 </body>
+
 </html>
