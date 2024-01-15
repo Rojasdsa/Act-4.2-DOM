@@ -1,9 +1,9 @@
 <!-- 
-Crea un &lt;div&gt; que se vuelva &lt;textarea&gt; 
+Crea un <div> que se vuelva <textarea> 
 cuando es clicado.El textarea permite editar HTML 
-en &lt;div&gt;. Cuando el usuario presiona Enter o se pierde
-el foco, el &lt;textarea&gt; se vuelve &lt;div&gt; de nuevo, 
-y su contenido se vuelve el HTML del &lt;div&gt;.    
+en <div>. Cuando el usuario presiona Enter o se pierde
+el foco, el <textarea> se vuelve <div> de nuevo, 
+y su contenido se vuelve el HTML del <div>.    
  -->
 
 <!DOCTYPE html>
@@ -12,9 +12,18 @@ y su contenido se vuelve el HTML del &lt;div&gt;.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
+
+    <ul>
+        <li>Clica el div para editar.</li>
+        <li>Enter o blur guarda el resultado.</li>
+      </ul>
     
+      Se permite HTML.
+      <div id="view" class="view">Text</div>
+
 </body>
 </html>
