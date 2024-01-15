@@ -1,24 +1,30 @@
 <!-- 
 ¿Por qué en el código de abajo return false no funciona?
 
-&lt;script&gt;
+<script>
 function handler() {
-alert( &quot;...&quot; );
+alert( "..." );
 return false;
 }
-&lt;/script&gt;
-&lt;a href=&quot;https://w3.org&quot; onclick=&quot;handler()&quot;&gt;el navegador irá a w3.org&lt;/a&gt;
+<script>
+<a href="https://w3.org" onclick="handler()>el navegador irá a w3.org</a>;
  -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>010 - Return false</title>
     <script defer src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <!-- Modificamos onclick para que llame al js correctamente -->
+    <a href="https://w3.org" onclick="handler(event)">el navegador irá a w3.org</a>
+
 </body>
+
 </html>
