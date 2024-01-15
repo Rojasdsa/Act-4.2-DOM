@@ -6,13 +6,30 @@ actualiza la hora en elements.
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>002 - Paint Clock</title>
+    <link href="../bootstrap.min.css" rel="stylesheet">
     <script defer src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <div class="container text-center mt-5 py-2">
+        
+        <!-- El reloj tendrá esta vista inicial hasta pulsar start -->
+        <div id="reloj">
+            <span class="hour text-danger">hh</span>:<span class="min text-success">mm</span>:<span
+                class="sec text-primary">ss</span>
+        </div>
+
+        <!-- Funcionalidad de los botones -->
+        <input type="button" onclick="clockStart()" value="Start">
+        <input type="button" onclick="clockStop()" value="Stop">
+    </div>
+
 </body>
+
 </html>
