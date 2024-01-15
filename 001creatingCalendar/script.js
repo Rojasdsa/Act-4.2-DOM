@@ -48,11 +48,14 @@ function createCalendar(elem, year, month) {
       table.appendChild(row);
     }
   
+     // Agrega la clase de Bootstrap para centrar la tabla
+     table.classList.add('table');
+
     elem.appendChild(table);
 }
 
 // Llamado de ejemplo
 const cal = document.getElementById('calendarioContainer');
 
-// El mes en JavaScript se indexa desde 0, por lo que 9 representa octubre
-createCalendar(cal, 2024, 1); 
+// El mes en JavaScript se indexa en 0, por lo que 9 representa octubre
+createCalendar(cal, 2012, 9); 
