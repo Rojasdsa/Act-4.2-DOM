@@ -1,0 +1,26 @@
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+  }
+
+  .menu .header {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .menu .header::before {
+    content: '▶ ';
+    font-size: 80%;
+    color: rgb(148, 23, 23);
+  }
+
+  .menu.open .header::before {
+    content: '▼ ';
+    color: aqua;
+  }
+
+  .menu.open ul {
+    display: block;
+  }
